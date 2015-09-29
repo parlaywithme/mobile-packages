@@ -13,7 +13,7 @@ var error = new ReactiveVar(null);
 // options for watchPosition
 var options = {
   enableHighAccuracy: true,
-  maximumAge: 0,
+  maximumAge: 5 * 60 * 1000,
   timeout: 10000
 };
 
